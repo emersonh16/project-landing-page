@@ -3,4 +3,89 @@ body{
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
+    font-family: "Gill Sans", sans-serif;
+}
+
+a{
+    font-size: 18px;
+    color: #E5E7EB;   
+    text-decoration: none;
+    margin-left: 25px;
+   }
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+button{
+    background-color: #3882F6;
+    color: #E5E7EB;   
+    border-radius: 4px;
+    border: 4px;
+}
+
+.header,.bodygroup,.main-1,.headerlinks,.container,.container-2,.infoblock{
+    display:flex;
+}
+
+.header,.footer,.main-1{
+    background-color: #1F2937;    
+}
+
+.bodygroup{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.header{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.title{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.titleimage {
+    width: 10px;
+    height: auto;
+    align-items:flex-start;
+    justify-content:center;
+    justify-items: center;
+  }
+
+.main-1{
+    color: #F9FAF8;
+}
+
+.main-3{
+    background-color: #E5E7EB;
+}
+
+
+.container{
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:center;
+    justify-items: center;
+   }
+
+.container-2{
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    justify-items: center;
+   }
+
+.infoblock{
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    justify-items: center;
 }
